@@ -42,20 +42,7 @@
 		  <version>3.8</version>
 		  <scope>test</scope>
 		</dependency>
-             <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <name>Internal Releases</name>
-            <url>http://18.221.129.255:8081/nexus/content/repositories/releases/</url>
-			<uniqueVersion>false</uniqueVersion>
-        </repository>
-        <snapshotRepository>
-            <id>nexus</id>
-            <name>Internal Snapshot Releases</name>
-                     <url>http://18.221.129.255:8081/nexus/content/repositories/snapshots/</url>
-			<uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
-    </distributionManagement>
+            
              <build>
 		<finalName>aws-codepipeline-custom-job-worker</finalName>
 		<plugins>
